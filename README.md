@@ -12,4 +12,4 @@ This repository contains code, notes and similar resources for the DevOps bootca
 
 ### Week 1
 
-- [][History of software Engineering](./Week1/History_of_SE.md)
+- [History of software Engineering](./Week1/History_of_SE.md)
