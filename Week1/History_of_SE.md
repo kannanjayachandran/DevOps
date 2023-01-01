@@ -4,7 +4,6 @@
 
 Software development is the process of creating computer programs. It is a process that involves the planning, designing, developing, testing, and documenting of software. Software made its debut in 1948 and wasn’t widely popular until 1952. For the last 50 years software engineering has had an interesting journey. It become vital force in the world economy and has changed the way we live our lives.
 
-![History of software engineering](./The_History_of_Coding_and_Software_Engineering_1960s.png)
 
 - References:
 
