@@ -2,7 +2,7 @@
 
 ## What is DevOps ?
 
-### _DevOps is a set of practices that combines software development (Dev) and information technology operations (Ops) to shorten the life cycle of systems and applications. The goal of DevOps is to bring developers and operations staff together to complete software development and delivery faster, with more reliability and at a higher quality._
+### DevOps is a set of practices that combines software _development (Dev)_ and _information technology operations (Ops)_ to shorten the life cycle of systems and applications. The goal of DevOps is to bring developers and operations staff together to complete software development and delivery faster, with more reliability and at a higher quality
 
 ### _DevOps practices include version control, continuous integration, continuous delivery, and monitoring._
 
