@@ -4,6 +4,15 @@
 
 </div>
 
+![](https://img.shields.io/badge/DevOps-Notes-g)
+![](https://img.shields.io/badge/Version%20Control-Git-red)
+![](https://img.shields.io/badge/Database-MySQL-blue)
+![](https://img.shields.io/badge/Database-MongoDB-green)
+![](https://img.shields.io/badge/Database-Redis-red)
+![](https://img.shields.io/badge/Database-PostgreSQL-blue)
+![](https://img.shields.io/badge/Database-Cassandra-teal)
+![](https://img.shields.io/badge/Database-DynamoDB-orange)
+
 ## What is DevOps ?
 
 ### DevOps is a set of practices that combines <span style="color:#FFB100"> _software development (Dev)_ </span> and <span style="color:#FFB100"> _information technology operations (Ops)_ </span> to shorten the life cycle of systems and applications. The goal of DevOps is to bring developers and operations staff together to complete software development and delivery faster, with more reliability and at a higher quality
