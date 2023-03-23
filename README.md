@@ -12,6 +12,7 @@
 
 ## Topics covered
 
-1. [x] [History of Software Engineering](./Week1/History_of_SE.md)
-2. [x] [Version Control](./Week1/versionControl.md)
-3. [x] [Databases](./Week2/databases.md)
+- [x] [History of Software Engineering](./01%20Prerequisites/01History_of_SE.md)
+- [x] [What is DevOps](./02%20DevOps/Readme.md)
+- [x] [Version Control](./03%20Version%20Control/)
+- [x] [Databases](./04%20Databases/Readme.md)
