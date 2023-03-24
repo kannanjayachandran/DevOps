@@ -23,6 +23,7 @@ Git is a distributed version control system. It is the most popular version cont
 - `git pull` - Pull changes from remote repository
 - `git clone` - Clone a remote repository
 - `git status` - Check the status of the local repository
+- `git branch` - List all the branches and shows the current branch
 - `git log` - Check the commit history
 - `git checkout` - Switch between branches
 - `git branch` - Create a new branch
@@ -32,29 +33,47 @@ Git is a distributed version control system. It is the most popular version cont
 
 In Git, a branch is a separate line of development. You can create a new branch to make changes, and then merge those changes back into the main branch when you're ready. This allows you to work on multiple features or fix multiple bugs concurrently, without affecting the main codebase.
 
-- To create a new branch, you can use the git branch command followed by the name of the new branch. For example:
+> To create a new branch, you can use the git branch command followed by the name of the new branch. For example:
 
- ``` git
-    git branch new-branch
+```git
+git branch new-branch
 ```
 
-- This creates a new branch called "new-branch" based on the current branch. To switch to the new branch, you can use the git checkout command followed by the name of the branch. For example:
+> This creates a new branch called "new-branch" based on the current branch. To switch to the new branch, you can use the git checkout command followed by the name of the branch. For example:
 
-     ``` git
-        git checkout new-branch
-    ```
+```git
+git checkout new-branch
+```
 
-- Once you have made your changes and committed them to the new branch, you can switch back to the main branch and merge the changes using the git merge command. For example:
+> Once we have switched to the new branch, we can make changes to the code and commit them to the new branch. For example:
 
-     ``` git
-        git checkout main
-        git merge new-branch
-    ```
+```git
+git add .
+git commit -m "commit message"
+```
 
-- It's also possible to delete a branch using the git branch -d command followed by the name of the branch. For example:
+> Now we can push our changes to the remote repository using the git push command. For example:
 
-``` git
-    git branch -d new-branch
+```git
+git push origin new-branch
+```
+
+> This will push the new branch to the remote repository. Now we can merge the new branch into the main branch. To do this, we need to switch to the main branch using the git checkout command. For example:
+
+```git
+git checkout main
+```
+
+> Now we can merge the new branch into the main branch using the git merge command. For example:
+
+```git
+git merge new-branch
+```
+
+> It's also possible to delete a branch using the git branch -d command followed by the name of the branch. For example:
+
+```git
+git branch -d new-branch
 ```
 
 ### Some important features of Git
